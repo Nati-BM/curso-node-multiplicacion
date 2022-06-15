@@ -1,0 +1,19 @@
+{
+  "name": "cursos",
+  "version": "0.0.1",
+  "description": "Es una tabla de multiplicar",
+  "main": "node/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base11": "node app.js --base=11"
+  },
+  "author": "Natividad Bautista",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
